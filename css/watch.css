@@ -1,0 +1,95 @@
+.card .card-bod{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    background-color: black;
+    padding: 1px 3px;
+    color: blanchedalmond;
+    font-size: .6rem;
+    
+}
+.card .fa-play{
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    font-size: 1.4rem;
+    display: none;
+}
+.watc-icon i:hover{
+    cursor: pointer;
+}
+.watch-page #more{
+    display: none;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: #f86372;
+}
+.card-inner{
+    display: none;
+}
+@media(max-width:1199px){
+    .card .card-bod{
+        position: absolute;
+        bottom: 43px;
+        left: 20px;
+        background-color: black;
+        padding: 1px 3px;
+        color: blanchedalmond;
+        font-size: .5rem;
+        
+    }
+    .card .fa-play{
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        font-size:1rem;
+        display: none;
+    }
+}
+@media(max-width:991px){
+    .card .card-bod{
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        background-color: black;
+        padding: 1px 3px;
+        color: blanchedalmond;
+        font-size: .6rem;
+        
+    }
+    .card .fa-play{
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        font-size:2rem;
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .reply-time{
+        font-size: 10px;
+    }
+}
+@media(max-width:574px){
+    .card .card-bod{
+        position: absolute;
+        bottom: 17px;
+        left: 22px;
+        background-color: black;
+        padding: 1px 3px;
+        color: blanchedalmond;
+        font-size: 1rem;
+        
+    }
+    .card .fa-play{
+        position: absolute;
+        top: 38%;
+        left: 45%;
+        font-size: 3rem;
+        display: none;
+    }
+    .reply-time{
+        font-size: 10px;
+    }
+}

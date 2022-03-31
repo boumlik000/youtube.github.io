@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "cairoFont";
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+body{
+    background-color: #fafafa;
+    font-family: "cairoFont",Arial, sans-serif;
+}
+#menu-top .navbar{
+    background-color: #fff !important;
+}
+.img1{
+    background-image: url(/img-card/dbs1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+.card .card-bod{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    background-color: black;
+    padding: 1px 3px;
+    color: blanchedalmond;
+    
+}
+.card .fa-play{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 3rem;
+    display: none;
+}
+.card .fa-play:hover{
+    color: #f86372 !important;
+
+}
+.card:hover .fa-play{
+    display: inline;
+}
+.card:hover {
+    transform: translateY(-.9%);
+    transition: .2s all ease-in-out;
+}
+.card .card-title{
+    height: 50px;
+    overflow: hidden;
+}
+a{
+    color: #000;
+    
+}
+a:hover{
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.img2{
+    background-image: url(/img-card/bleach2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+.img3{
+    background-image: url(/img-card/bleach1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+.img4{
+    background-image: url(/img-card/naruto1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+.img5{
+    background-image: url(/img-card/itatchi.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+.channel-img{
+    position: relative;
+}
+.span-title{
+    position: absolute;
+    top: 15px;
+}
+#menu-top .video-icon{
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 15%;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link{
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 5px;
+}
+button{
+    background-color: transparent !important;
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+button:hover{
+    background-color: #dc3545 !important;
+    color: #fafafa !important;
+}
+.modal .modal-header .close:hover{
+    background-color: transparent !important;
+    color: #dc3545 !important;
+}
+input.form-control:focus,
+button:focus{
+    border-color: #dc35468e;
+    box-shadow: none !important;
+}
+.sidebar{
+    position: fixed;
+    z-index: 4;
+    left: -17rem;
+    transition: .5s all ease-in-out;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+}
+.sidebar .list-group-item{
+    width: 17rem;
+}
+.sidebar .list-group-item:hover{
+    background-color: #dc3545;
+    color: #fff;
+}
+.sidebar .list-group-item:hover .red{
+    
+    color: #fff !important;
+}
+.fa-bars{
+    cursor: pointer;
+}
+#wrap.toggled .sidebar{
+    left: 0rem;
+}
+.sidebar::-webkit-scrollbar{
+    background: #fafafa;
+    width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background: #292929;
+    width: 8px;
+}
+.layer{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color: rgb(0, 0, 0,0.5);
+    z-index: 3;
+    display: none;
+    transition: all .2s ease-in-out;
+}
+.navbar .search-icon{
+    color: #dc3545;
+    cursor: pointer;
+    padding: 10px 10px;
+    position: absolute;
+    top: 10px;
+    right: 132px;
+    font-size: 1rem;
+    display: none;
+}
+.navbar .search-icon:hover{
+    color: #fafafa;
+    background-color: #dc3545;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.search-input{
+    position: fixed;
+    border: none;
+    top: 56px;
+    left: 0;
+    padding: 6px 27px;
+    height: 60px;
+    background-color: #efeeee;
+    z-index: 1;
+    display: none;
+}
+.search-input:focus{
+    background-color: #efeeee;
+}
+.container-fluid{
+    padding: 0;
+    overflow: hidden;
+}
+/*media for search bar 1115px*/
+@media (max-width:991px) {
+    .navbar .collapse .form-inline{
+        display: none;
+    }
+    .navbar .search-icon{
+        display: inline;
+    }
+}
+@media (min-width:991px){
+    .search-input{
+        display: none !important;
+    }
+}
+
+

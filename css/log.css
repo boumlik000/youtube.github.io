@@ -1,0 +1,19 @@
+.history-right-column{
+    background-color: #fff;
+    height: 566px;
+}
+.list-group-item.active{
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.remove{
+    color: #fff;
+    position: absolute;
+    top :7px;
+    left: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.remove:hover{
+    color: #dc3545;
+}

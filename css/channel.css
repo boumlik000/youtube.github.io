@@ -1,0 +1,17 @@
+.card .card-bod{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: .7rem;
+    background-color: black;
+    padding: 1px 3px;
+    color: blanchedalmond;
+    
+}
+@media(max-width:593px){
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 13px;
+        padding-right: 4px;
+        padding-left: 4px;   
+    }
+}

@@ -1,0 +1,41 @@
+#search-filter-icon{
+    cursor: pointer !important;
+}
+.filter-column{
+    display: none ;
+}
+input:checked+span{
+ color: #dc3545 !important;
+}
+
+.card .card-bod{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    padding: 1px 3px;
+    color: blanchedalmond;
+    
+}
+.card .fa-play{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 3rem;
+    display: none;
+}
+.paragraph{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media(max-width:768px){
+    .card .fa-play{
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        font-size: 3rem;
+        display: none;
+    }
+    
+}
