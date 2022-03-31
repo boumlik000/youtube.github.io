@@ -57,28 +57,28 @@ a:hover{
 }
 
 .img2{
-    background-image: url(/img-card/bleach2.jpg);
+    background-image: url(./img-card/bleach2.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
     position: relative;
 }
 .img3{
-    background-image: url(/img-card/bleach1.jpg);
+    background-image: url(./img-card/bleach1.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
     position: relative;
 }
 .img4{
-    background-image: url(/img-card/naruto1.jpg);
+    background-image: url(./img-card/naruto1.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
     position: relative;
 }
 .img5{
-    background-image: url(/img-card/itatchi.jpg);
+    background-image: url(./img-card/itatchi.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
