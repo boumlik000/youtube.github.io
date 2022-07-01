@@ -10,7 +10,7 @@ body{
     background-color: #fff !important;
 }
 .img1{
-    background-image: url(../img-card/dbs1.jpg);
+    background-image: url(../img-card/dbs1.jpg) !important;
     background-size: cover;
     background-position: center;
     height: 200px;
